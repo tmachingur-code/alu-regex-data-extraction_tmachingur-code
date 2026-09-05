@@ -24,7 +24,7 @@ Status: verified
 
 Ticket #ALU-2050 | submitted: 2026-09-04 11:02:46 | priority: low
 Student: Chipo M.
-Email: [chipo.m@alumni.alueducation.com](mailto:chipo.m@alumni.alueducation.com)
+Email: chipo.m@alumni.alueducation.com
 Phone: +263 77 234 5678
 Website: https://www.chipom.example.com
 Card reference: 5555-5555-5555-4444
@@ -33,7 +33,7 @@ Status: completed
 
 Ticket #ALU-2051 | submitted: 2026-09-04 12:18:03 | priority: medium
 Student: Morgan P.
-Email: [morgan.p@si.alueducation.com](mailto:morgan.p@si.alueducation.com)
+Email: morgan.p@si.alueducation.com
 Phone: +250 788 123 456
 Resource: https://learning.example.org/resources/regex-basics
 Reference ID: ALU-SI-77821
@@ -42,11 +42,11 @@ Status: open
 ## MESSY / REJECTED RECORDS
 
 Email: missing-domain@
-Email: [jane..doe@example.com](mailto:jane..doe@example.com)
+Email: jane..doe@example.com
 Email: person@example
 Email: @alueducation.com
 Email: student@alueducation
-Email: [student..name@alueducation.com](mailto:student..name@alueducation.com)
+Email: student..name@alueducation.com
 
 Phone: +999 123
 Phone: 12345
@@ -69,14 +69,12 @@ Card: 0000 0000 0000 0000
 
 <script>alert("ignore this")</script>
 
-email=[admin@alueducation.com](mailto:admin@alueducation.com)' OR '1'='1
-
+email=admin@alueducation.com' OR '1'='1
 phone=+250 788 123 456; DROP TABLE students;
 
 url=https://safe.example.com/?next=<script>alert(1)</script>
 
-search=[admin@example.com](mailto:admin@example.com) UNION SELECT password FROM users
-
+search=admin@example.com UNION SELECT password FROM users
 redirect=javascript:window.location='https://malicious.example'
 
 End of export.
