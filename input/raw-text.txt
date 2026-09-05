@@ -7,7 +7,7 @@ Ticket #ALU-2048 | submitted: 2026-09-04 09:14:22 | priority: medium
 Student: Tsungi M.
 Email: tsungi.m@alueducation.com
 Alternative contact: tsungi.m@alumni.alueducation.com
-SI mentor: [mentor.joseph@si.alueducation.com]
+SI mentor: mentor.joseph@si.alueducation.com
 Phone: +250 782 547 523
 Portfolio: https://tsungim.example.com/projects?ref=alu&view=latest
 Support portal: https://support.example.com/help/contact-us
