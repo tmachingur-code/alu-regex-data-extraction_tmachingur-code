@@ -1,0 +1,59 @@
+{
+  "security": {
+    "input_treated_as_untrusted": true,
+    "sensitive_values_masked": true,
+    "full_card_numbers_written_to_output": false,
+    "warnings": [
+      "Script-like HTML detected; unsafe markup was ignored.",
+      "Dangerous URI scheme detected; only HTTP/HTTPS URLs are accepted."
+    ]
+  },
+  "extracted": {
+    "emails": [
+      "t******m@alueducation.com",
+      "t******m@alumni.alueducation.com",
+      "m***********h@si.alueducation.com",
+      "d********************s@alueducation.com",
+      "c*****m@alumni.alueducation.com",
+      "m******p@si.alueducation.com"
+    ],
+    "urls": [
+      "https://tsungim.example.com/projects?ref=alu&view=latest",
+      "https://support.example.com/help/contact-us",
+      "http://example.org/users/daniel.k",
+      "https://www.chipom.example.com",
+      "https://learning.example.org/resources/regex-basics"
+    ],
+    "phone_numbers": [
+      "+250 782 547 523",
+      "+254 712 555 019",
+      "0712 555 019",
+      "+263 77 234 5678",
+      "+250 788 123 456"
+    ],
+    "credit_cards": [
+      "************1111",
+      "************4444"
+    ]
+  },
+  "alu_email_validation": {
+    "official_alueducation_com": [
+      "t******m@alueducation.com",
+      "d********************s@alueducation.com"
+    ],
+    "alumni_alueducation_com": [
+      "t******m@alumni.alueducation.com",
+      "c*****m@alumni.alueducation.com"
+    ],
+    "si_alueducation_com": [
+      "m***********h@si.alueducation.com",
+      "m******p@si.alueducation.com"
+    ]
+  },
+  "counts": {
+    "valid_emails": 6,
+    "valid_urls": 5,
+    "valid_phone_numbers": 5,
+    "valid_credit_cards": 2
+  }
+}
