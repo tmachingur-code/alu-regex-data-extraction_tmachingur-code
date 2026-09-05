@@ -1,0 +1,82 @@
+API export: ALU Student Support / September 2026
+Source: student-support-api/v2
+Export status: completed
+------------------------
+
+Ticket #ALU-2048 | submitted: 2026-09-04 09:14:22 | priority: medium
+Student: Tsungi M.
+Email: tsungi.m@alueducation.com
+Alternative contact: tsungi.m@alumni.alueducation.com
+SI mentor: [mentor.joseph@si.alueducation.com]
+Phone: +250 782 547 523
+Portfolio: https://tsungim.example.com/projects?ref=alu&view=latest
+Support portal: https://support.example.com/help/contact-us
+Fee paid: USD 3,000.00
+Status: awaiting review
+
+Ticket #ALU-2049 | submitted: 2026-09-04 10:31:07 | priority: high
+Student: Daniel K.
+Email: daniel.kimani+projects@alueducation.com
+Phone: +254 712 555 019 / 0712 555 019
+Profile: http://example.org/users/daniel.k
+Card used for verification: 4111 1111 1111 1111
+Status: verified
+
+Ticket #ALU-2050 | submitted: 2026-09-04 11:02:46 | priority: low
+Student: Chipo M.
+Email: [chipo.m@alumni.alueducation.com](mailto:chipo.m@alumni.alueducation.com)
+Phone: +263 77 234 5678
+Website: https://www.chipom.example.com
+Card reference: 5555-5555-5555-4444
+Amount paid: RWF 285,500
+Status: completed
+
+Ticket #ALU-2051 | submitted: 2026-09-04 12:18:03 | priority: medium
+Student: Morgan P.
+Email: [morgan.p@si.alueducation.com](mailto:morgan.p@si.alueducation.com)
+Phone: +250 788 123 456
+Resource: https://learning.example.org/resources/regex-basics
+Reference ID: ALU-SI-77821
+Status: open
+
+## MESSY / REJECTED RECORDS
+
+Email: missing-domain@
+Email: [jane..doe@example.com](mailto:jane..doe@example.com)
+Email: person@example
+Email: @alueducation.com
+Email: student@alueducation
+Email: [student..name@alueducation.com](mailto:student..name@alueducation.com)
+
+Phone: +999 123
+Phone: 12345
+Phone: +250 123
+Phone: 1234 5678 9012 3456
+
+URL: javascript:alert('xss')
+URL: data:text/html,<script>alert(1)</script>
+URL: file:///etc/passwd
+URL: https://
+URL: http://
+URL: https://invalid domain.example.com
+
+Card: 4111 1111 1111 1112
+Card: 1234 5678 9012 3456
+Card: 1234-5678-9012
+Card: 0000 0000 0000 0000
+
+## Potentially hostile payload
+
+<script>alert("ignore this")</script>
+
+email=[admin@alueducation.com](mailto:admin@alueducation.com)' OR '1'='1
+
+phone=+250 788 123 456; DROP TABLE students;
+
+url=https://safe.example.com/?next=<script>alert(1)</script>
+
+search=[admin@example.com](mailto:admin@example.com) UNION SELECT password FROM users
+
+redirect=javascript:window.location='https://malicious.example'
+
+End of export.
